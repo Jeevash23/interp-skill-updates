@@ -1,0 +1,24 @@
+{
+  "project_id": "AI-07",
+  "date": "2026-10-07",
+  "timezone": "[time zone]",
+  "scope": "static_and_symbolic_preparation_checks_only",
+  "model_execution": false,
+  "gpu_used": false,
+  "files_downloaded": 0,
+  "checks": {
+    "relative_document_links": "passed",
+    "syntax_and_standard_library_imports": "passed",
+    "overwrite_refusal": "passed",
+    "invalid_scientific_input_rejected": "passed",
+    "semantic_input_verification": {
+      "project_id": "AI-07",
+      "check": "symbolic_semantics",
+      "status": "passed",
+      "exact_label_checks": 1440,
+      "matched_history_jobs": 27,
+      "model_execution": false
+    },
+    "referenced_source_files_unchanged": "passed"
+  }
+}

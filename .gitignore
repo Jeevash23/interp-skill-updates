@@ -1,0 +1,44 @@
+# Unpacked from the release attachments (README.md, "Release files")
+# per-run-outputs.tar.gz
+/data/saved-outputs/phase1-feasibility.tar.xz
+/data/saved-outputs/phase2-controlled-histories.tar.xz
+/data/saved-outputs/study3-larger-confirmation.tar.xz
+# frozen-protocols.tar.gz
+/studies/1-feasibility-classification/05-Notes/PROTOCOL-DRAFT.md
+/studies/1-feasibility-classification/06-Study-History/ANALYSIS-FREEZE-v1.json
+/studies/1-feasibility-classification/06-Study-History/DIAGNOSTIC-FREEZE-v1.json
+/studies/1-feasibility-classification/06-Study-History/EXECUTION-FREEZE-v1.json
+/studies/1-feasibility-classification/AMENDMENTS.md
+/studies/2-controlled-histories/AMENDMENTS.md
+/studies/2-controlled-histories/data/amendment.json
+/studies/2-controlled-histories/protocol/AMENDMENT-FREEZE.json
+/studies/2-controlled-histories/protocol/AMENDMENT.md
+/studies/2-controlled-histories/protocol/CONFIRMATION-FREEZE.json
+/studies/2-controlled-histories/protocol/DEVELOPMENT-FREEZE.json
+/studies/2-controlled-histories/protocol/DISPLAY-FREEZE.json
+/studies/2-controlled-histories/protocol/DURATION-FREEZE.json
+/studies/2-controlled-histories/protocol/VERIFICATION-FREEZE.json
+/studies/2-controlled-histories/protocol/amendment.json
+/studies/3-larger-confirmation/AMENDMENTS.md
+/studies/3-larger-confirmation/FREEZE.json
+/studies/3-larger-confirmation/PREDICTIONS.md
+/studies/3-larger-confirmation/PROTOCOL.md
+/studies/3-larger-confirmation/protocol/predictions.json
+# Written by `make unpack` from the saved outputs and the compressed inputs
+/provenance/relocation-inventory-2026-10-09.tsv
+/studies/1-feasibility-classification/04-Results/
+/studies/1-feasibility-classification/06-Study-History/FINAL-EVIDENCE-MANIFEST.json
+/studies/2-controlled-histories/FINAL-EVIDENCE-MANIFEST.json
+/studies/2-controlled-histories/analysis/
+/studies/2-controlled-histories/runs/
+/studies/3-larger-confirmation/EVIDENCE-MANIFEST.json
+/studies/3-larger-confirmation/provenance/EVIDENCE-MANIFEST-2026-10-10T10-34Z.json
+/studies/3-larger-confirmation/results/
+/studies/3-larger-confirmation/runs/
+# Environments, caches, downloaded checkpoints, figures and rerun copies
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+/paper/figures/
+/reruns/

@@ -1,0 +1,17 @@
+{
+  "project_id": "AI-07",
+  "created_date": "2026-10-07",
+  "timezone": "[time zone]",
+  "stage": "prepared_inputs_and_draft_protocol",
+  "model_execution": "deferred_by_user",
+  "scientific_protocol_frozen": false,
+  "model_runner_implemented": false,
+  "prepared_input_verification": "passed",
+  "training_runs": 0,
+  "inference_runs": 0,
+  "gpu_allocations": 0,
+  "dependencies_installed": false,
+  "downloads_performed": false,
+  "next_stage": "implement_and_qualify_model_adapter_when_user_resumes_experiments",
+  "verification_record": "PREPARATION-CHECK.json"
+}

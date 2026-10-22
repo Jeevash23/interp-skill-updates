@@ -1,0 +1,12 @@
+{
+  "gpu_used": false,
+  "histories": 3,
+  "model_runs_completed": 0,
+  "paired_initializations_per_family": 3,
+  "planned_base_training_jobs": 27,
+  "planned_update_branches": 54,
+  "project_id": "AI-07",
+  "runtime_estimate": null,
+  "status": "symbolic_preparation_only",
+  "task_families": 3
+}

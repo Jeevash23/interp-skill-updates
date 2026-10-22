@@ -1,0 +1,37 @@
+{
+  "architectures": {
+    "leaky": {
+      "code_to_readout_ratio": null,
+      "exact_0_01": 32,
+      "exact_0_10": 59,
+      "gain_range": [
+        0.6256613622812871,
+        0.9371871542320596
+      ],
+      "max_abs_error_0_01": 24,
+      "max_abs_error_0_10": 11,
+      "mean_abs_error_0_10": 2.8125,
+      "mean_code_norm_squared": null,
+      "mean_gain": 0.7564372749389928,
+      "trajectories": 512
+    },
+    "linear": {
+      "code_to_readout_ratio": 5.558029641348241,
+      "exact_0_01": 512,
+      "exact_0_10": 512,
+      "gain_range": [
+        0.640161399308008,
+        0.9862895783267541
+      ],
+      "max_abs_error_0_01": 0,
+      "max_abs_error_0_10": 0,
+      "mean_abs_error_0_10": 0.0,
+      "mean_code_norm_squared": 4.358372860133958,
+      "mean_gain": 0.7841579015179063,
+      "trajectories": 512
+    }
+  },
+  "created": "2026-10-09",
+  "learning_rate": 0.05,
+  "post_hoc": true
+}

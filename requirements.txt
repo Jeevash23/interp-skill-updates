@@ -1,0 +1,42 @@
+# The environment every study ran in (CPython 3.12.14), as recorded in
+# studies/1-feasibility-classification/06-Study-History/environment.json (38 packages). make setup installs it
+# (see ENVIRONMENT.md): PyTorch's CPU build comes from https://download.pytorch.org/whl/cpu. Tracr and the CAE
+# library were part of the environment but no code here imports them; they are listed at the end for completeness.
+absl-py==2.3.1
+chex==0.1.91
+contourpy==1.3.2
+cycler==0.12.1
+dm-haiku==0.0.15
+einops==0.8.1
+filelock==3.32.3
+fonttools==4.58.4
+fsspec==2026.7.0
+jax==0.8.1
+jaxlib==0.8.1
+Jinja2==3.1.6
+jmp==0.0.4
+joblib==1.5.2
+kiwisolver==1.4.8
+MarkupSafe==3.0.3
+matplotlib==3.10.3
+ml_dtypes==0.5.4
+mpmath==1.3.0
+networkx==3.5
+numpy==2.2.0
+opt_einsum==3.4.0
+packaging==25.0
+pillow==11.2.1
+pyparsing==3.2.3
+python-dateutil==2.9.0.post0
+scipy==1.16.0
+setuptools==80.9.0
+six==1.17.0
+sympy==1.14.0
+tabulate==0.10.0
+toolz==1.1.0
+tqdm==4.67.1
+typing_extensions==4.15.0
+wheel==0.45.1
+torch==2.7.1+cpu
+# tracr @ git+https://github.com/google-deepmind/tracr@9ce2b8c82b6ba10e62e86cf6f390e7536d4fd2cd
+# causal_abstraction_eval @ git+https://github.com/MelouxM/CAE@d91f65b5620423d3eae98478bc9843f4a40e361a

@@ -1,0 +1,22 @@
+{
+  "source": "studies/2-controlled-histories/analysis/confirmation/summary.json (Phase 2 confirmation, 64 families)",
+  "phase2_family_sd": {
+    "linear": 0.17354846963294865,
+    "leaky": 0.16719320768022317
+  },
+  "sigma_used": 0.17354846963294865,
+  "margin": 0.05,
+  "power": 0.8,
+  "primary_intervals": 2,
+  "interval_confidence": 0.975,
+  "familywise_coverage": 0.95,
+  "families": 153,
+  "t_quantile_at_n": 2.263823236862778,
+  "expected_half_width_at_n": 0.03176271270180292,
+  "probability_inside_at_n": {
+    "linear": 0.8038849504413133,
+    "leaky": 0.8464275367686845
+  },
+  "probability_inside_at_n_minus_1": 0.7997839451219253,
+  "probability_both_inside_if_independent": 0.6804303584474568
+}

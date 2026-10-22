@@ -1,0 +1,71 @@
+{
+  "architectures": {
+    "leaky": {
+      "changed_floor": {
+        "difference_high": 0.00011160757403587317,
+        "difference_low": -2.6671205785789507e-05,
+        "difference_mean": 4.2468184125041833e-05,
+        "interval_width_over_noninferiority_margin": 0.006913938991083134,
+        "max_error": 0.0028144408684658544,
+        "mean_error": 0.0006150328202161239
+      },
+      "six_way": {
+        "confidence": 0.9916666666666667,
+        "decision": "practical_independent_history_benefit_ruled_out",
+        "high": 0.06457343793584307,
+        "low": -0.049290274286335756
+      },
+      "two_way": {
+        "confidence": 0.975,
+        "decision": "practical_independent_history_benefit_ruled_out",
+        "high": 0.05563098075261019,
+        "low": -0.04034781710310288,
+        "mean": 0.007641581824753652
+      },
+      "unseen_vs_unchanged": {
+        "correlation": 0.9995170844595378,
+        "family_difference_correlation": 0.9993753459281622,
+        "family_difference_slope": 0.7052446719498155,
+        "max_abs_deviation_from_unchanged_over_sqrt2": 0.027050010718939754,
+        "mean_ratio": 1.0026758486008853,
+        "trajectories": 512
+      }
+    },
+    "linear": {
+      "changed_floor": {
+        "difference_high": 0.0001255495727360293,
+        "difference_low": -7.00070554325962e-07,
+        "difference_mean": 6.242475109085167e-05,
+        "interval_width_over_noninferiority_margin": 0.0063124821645177635,
+        "max_error": 0.0021339599673575226,
+        "mean_error": 0.0004190192730003668
+      },
+      "six_way": {
+        "confidence": 0.9916666666666667,
+        "decision": "inconclusive",
+        "high": 0.05584035529383613,
+        "low": -0.062351485613245564
+      },
+      "two_way": {
+        "confidence": 0.975,
+        "decision": "inconclusive",
+        "high": 0.04655798204170904,
+        "low": -0.05306911236111847,
+        "mean": -0.0032555651597047175
+      },
+      "unseen_vs_unchanged": {
+        "correlation": 0.9999999043508397,
+        "family_difference_correlation": 0.9999998497588588,
+        "family_difference_slope": 0.7070735189839481,
+        "max_abs_deviation_from_unchanged_over_sqrt2": 0.0010290855018730283,
+        "mean_ratio": 1.0000069573576773,
+        "trajectories": 512
+      }
+    }
+  },
+  "conclusions_unchanged": true,
+  "created": "2026-10-09",
+  "margin": 0.05,
+  "post_hoc": true,
+  "source": "studies/2-controlled-histories/analysis/confirmation"
+}

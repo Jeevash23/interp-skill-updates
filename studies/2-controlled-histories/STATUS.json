@@ -1,0 +1,23 @@
+{
+  "updated_utc": "2026-10-08T04:14:43.380147+00:00",
+  "study_execution_complete": true,
+  "experiments_running": 0,
+  "original_study_preserved": true,
+  "broader_hypothesis_settled": false,
+  "decision": "close_bounded_program_no_useful_history_advantage_established",
+  "primary_decisions": {
+    "leaky": "practical_independent_history_benefit_ruled_out",
+    "linear": "inconclusive"
+  },
+  "fresh_confirmation_families": 64,
+  "confirmation_base_models": 512,
+  "continuation_scientific_base_models": 560,
+  "exact_retrained_verification_models": 8,
+  "original_base_executions": 66,
+  "all_ai07_base_training_executions": 634,
+  "all_ai07_stored_update_control_trajectories": 12064,
+  "duration_control_trajectories": 1024,
+  "duration_control_all_new_skill_error_below_0_01": true,
+  "duration_control_maximum_stable_prediction_drift": 0,
+  "report": "report/AI-07-COMPLETED-STUDY.md"
+}

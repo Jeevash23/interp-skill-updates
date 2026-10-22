@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the preprint (link to be added when it is posted) and this repository."
+title: "Independent changes during training did not detectably reduce interference between two learned skills: code and results"
+abstract: "Tests whether small networks trained on two skills that change independently, rather than together, can later have one skill updated with less damage to the other."
+authors:
+  - family-names: Jeevash
+    given-names: Richard
+    orcid: "https://orcid.org/0009-0005-7812-0939"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Jeevash23/interp-skill-updates"
+keywords:
+  - neural networks
+  - modularity
+  - interference
+  - training history
+  - continual learning

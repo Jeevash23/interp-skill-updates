@@ -1,0 +1,17 @@
+{
+  "captured_utc": "2026-10-08T03:01:21.665627+00:00",
+  "reason": "Preserve preparation status documents before updating them to the completed feasibility result",
+  "files": {
+    "README.md": "477e5217e3a3273a6a3dae13f3d3b6e82bd9b8604621b9ac6be504a2f3ceefa1",
+    "00-START-HERE.md": "fc83d264e5f790a921efa03177052895066ad61479a7eb6dac6df927616da8c8",
+    "Makefile": "42a5d122a338670a3cac5a140d0272405b08c46aade52d5c5d2879b16e43e874",
+    "field-README.md": "f2ac05f2a37d3e7fb8a1ead720aba32f5b324151393e0f5fbc4bf1495b3ae8be",
+    "02-Code/README.md": "f65f071dfde9bace9f5cf3300a61966bac1b6a3290464eba7e715b87332579c7",
+    "02-Code/EXECUTION-CONTRACT.md": "621ff93a108671ed58633e068399081047e16693ffc04985805206f0173ed60e",
+    "03-Data/README.md": "b3538438858ffa6bcd543160b6d53a1a8c604070c2a72ba4cd75400453262e1e",
+    "04-Results/README.md": "79c5b50a848e48f28eb7e80071853ea31491d4c8250307edd280b278a9f3eb99",
+    "05-Notes/RUNBOOK.md": "bbf1fe48abfebdf0de16ebeb8abcb484a5316952795a3d90c0d470692433cc48",
+    "06-Study-History/README.md": "bf343aa7133b9c2b2d02a14c7072a2962b543a9647e2b4935708ea872ab48781",
+    "06-Study-History/STATUS.json": "75f79aa6ec935163b8003deff4d249871f254bd830c1db9ca8575f07b9eb3f6b"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "confirmation_sd": {
+    "leaky": 0.16719320768022317,
+    "linear": 0.17354846963294865
+  },
+  "created": "2026-10-09",
+  "development_sd": {
+    "leaky": 0.17719100232619497,
+    "linear": 0.3533609937654171
+  },
+  "expected_half_width_at_cap_confirmation_sd": 0.05909592045354085,
+  "expected_half_width_at_cap_development_sd": 0.12032484771032916,
+  "families_needed": {
+    "0.025": {
+      "2_way": {
+        "expected_half_width_equals_margin": 246,
+        "power_0_8": 601
+      },
+      "6_way": {
+        "expected_half_width_equals_margin": 340,
+        "power_0_8": 744
+      }
+    },
+    "0.05": {
+      "2_way": {
+        "expected_half_width_equals_margin": 64,
+        "power_0_8": 153
+      },
+      "6_way": {
+        "expected_half_width_equals_margin": 88,
+        "power_0_8": 189
+      }
+    }
+  },
+  "families_used": 64,
+  "post_hoc": true,
+  "power": 0.8,
+  "probability_inside_0_05_at_64_six_way": 0.003148178559134171,
+  "probability_inside_0_05_at_64_two_way": 0.07140802459893374,
+  "probability_inside_two_way": {
+    "0.025@350": 0.3428552649846209,
+    "0.025@600": 0.7993601314777588,
+    "0.05@110": 0.5439333183541741,
+    "0.05@150": 0.7913518486527399
+  },
+  "realised_half_width": {
+    "leaky": 0.05693185611108941,
+    "linear": 0.05909592045354085
+  },
+  "rule_bounds": [
+    32,
+    64
+  ],
+  "rule_families_uncapped": 1057,
+  "rule_families_uncapped_exact": 1056.8488275675707,
+  "rule_families_with_t_quantile": 1483,
+  "rule_multiplier": 2.3,
+  "rule_sd": 0.3533609937654171,
+  "rule_target_half_width": 0.025,
+  "sigma_used": 0.17354846963294865,
+  "t_quantile_six_way": 2.7241229186763776,
+  "t_quantile_two_way": 2.296236771514879
+}

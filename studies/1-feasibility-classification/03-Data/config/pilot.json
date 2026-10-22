@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "AI-07",
+  "status": "draft_preparation_only",
+  "model_execution_enabled": false,
+  "domain_size": 8,
+  "task_seeds": [71001, 71002, 71003],
+  "initialization_seeds": [1701, 1702, 1703],
+  "history_names": ["factorwise", "mixed_change", "shuffled"],
+  "visits_per_environment": 3,
+  "common_final_environment": "E00",
+  "heldout_pair_offsets": [0, 1],
+  "training": {"architecture": "mlp", "hidden_sizes": [64, 64], "steps_per_visit": 200, "learning_rate": 0.003, "optimizer": "Adam", "dtype": "float32", "batch": "full"},
+  "adaptation": {"branches": ["update_f", "update_g"], "evaluation_steps": [0, 1, 5, 10, 25, 50, 100], "train_on": "changed_primitive_only"},
+  "estimated_runtime_seconds": null,
+  "scientific_protocol_frozen": false
+}

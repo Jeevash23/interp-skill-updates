@@ -1,0 +1,21 @@
+{
+  "created_date": "2026-10-07",
+  "date_timezone": "[time zone]",
+  "inputs": {
+    "02-Code/prepare.py": "1026e62477ecc0e203f0b10950bd340885cca99dc3e0ceaa6edb8ae7799dd50e",
+    "02-Code/support.py": "b405f60393c511f6d096fbe0d7007a05e17b4ddee5f0980d33c5be58734900d4",
+    "03-Data/config/pilot.json": "26ba275abed6ef93695a530f9899f5ae1808e6387ff43492de92df3a11d904da",
+    "05-Notes/PROTOCOL-DRAFT.md": "a4493bbbabe6b4c5daf6201f46098fe08a001255adb566eb09f5c10185846a46"
+  },
+  "model_execution_performed": false,
+  "outputs": {
+    "counts.json": "4c9423e8fab8dffd6db371487a8a49fa3f97aa6ff8b02c7ab78f306ca4ebb51d",
+    "job-plan.json": "632ed92de4fdbbd96696370181f2fb5858391cbde9519221b147ac870c059bdd",
+    "task-families.json": "93ef2eb49ed5e80a41a78d44a9707cfdbb24d67cae50851a3978fecea1450603",
+    "training-schedules.json": "15b1d3b7a97d7793145fd73bd40f4bf049b09919d08d6b32a313d853d5140f20"
+  },
+  "project_id": "AI-07",
+  "record_type": "preparation_snapshot_not_scientific_freeze",
+  "schema_version": 1,
+  "tokenizer_loaded": false
+}

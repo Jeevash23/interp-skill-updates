@@ -1,0 +1,352 @@
+{
+ "release": "independent-skill-updates",
+ "changed_files": {
+  "analysis/results/replay-2026-10-09.json": {
+   "kind": "redacted",
+   "original_sha256": "320d45f319e31c68141901bcb4b9b29fa730754b97c9aec62c709a8a5d6a1184",
+   "release_sha256": "c61d68a669027300cdf5bae9025fbaab38ad000ce8920e45951e261e68efe46e",
+   "redactions": {
+    "absolute path": 1,
+    "environment path": 1
+   }
+  },
+  "studies/1-feasibility-classification/02-Code/README.md": {
+   "kind": "redacted",
+   "original_sha256": "749e740283330af511328bc8cf620d7d7ebf7e2976feb4ceacf8c2a572bdb06f",
+   "release_sha256": "d28e5a127595d2acdd00b8cb8fd8356ff3b60e2dfab5ea46a59f659638bf4652",
+   "redactions": {
+    "environment path": 2
+   }
+  },
+  "studies/1-feasibility-classification/02-Code/support.py": {
+   "kind": "adapted",
+   "original_sha256": "b405f60393c511f6d096fbe0d7007a05e17b4ddee5f0980d33c5be58734900d4",
+   "release_sha256": "9dd0bc0ab9bc15bd21de9e222b27f1faa0ac1e134f2f4ba6df07bf87fb1285f0",
+   "reasons": [
+    "the preparation manifest counts a file adapted for the release by its original's digest, as release-changes.json records it",
+    "the preparation writes the placeholder [time zone] where it wrote the local time zone, as the redacted records give it, so its --check still compares byte for byte"
+   ]
+  },
+  "studies/1-feasibility-classification/03-Data/prepared/preparation-manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "24e6c87eca3a4b487a93fcf3ecd23a68f0c7fbc7c5f6c0150c32888ae2230ce9",
+   "release_sha256": "735cefc5b955e21a71f1ec4e4535d4e39c47cc37c127ac819439ef64736a94e3",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "studies/1-feasibility-classification/04-Results/long-final-v1/manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "097b5eb72433578a843cb82e74420173e7b6a8bcb0fc5aa7e2fa605f0a6aa25b",
+   "release_sha256": "b21e505b22330a2467f7acb64201315c6e2a9797466c1414de1a7d0f472b9eef",
+   "redactions": {
+    "absolute path": 1,
+    "environment path": 1,
+    "platform string": 1
+   },
+   "archive": "data/saved-outputs/phase1-feasibility.tar.xz"
+  },
+  "studies/1-feasibility-classification/04-Results/pilot-v1/manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "0d78820bf98da5210b63b2ca2f83a23d1606efd72fc196a78cff34f1520fa341",
+   "release_sha256": "877c69e4646daba86680963f9b41a6f360442180addf5810288d1176fbab1a8b",
+   "redactions": {
+    "absolute path": 1,
+    "environment path": 1,
+    "platform string": 1
+   },
+   "archive": "data/saved-outputs/phase1-feasibility.tar.xz"
+  },
+  "studies/1-feasibility-classification/04-Results/qualification-v1/manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "85dfe5f79ee7b791462ebd2c50cda3b6626629fd59a81b1296b7433eb067dfe0",
+   "release_sha256": "ce2a950d6e9519a335b1ceb58f18d93cdafa266c20354be11fb5294abebb825f",
+   "redactions": {
+    "absolute path": 1,
+    "environment path": 1,
+    "platform string": 1
+   },
+   "archive": "data/saved-outputs/phase1-feasibility.tar.xz"
+  },
+  "studies/1-feasibility-classification/05-Notes/RUNBOOK.md": {
+   "kind": "redacted",
+   "original_sha256": "0787cad825d749d218a225afcb391508830255a5b6b8f4c8c1a7feb349d8e6b9",
+   "release_sha256": "b43a42bc4c16ec44b8c0757d4346cba56a7d0a7bfdcaee2c63d188c3e0e4c681",
+   "redactions": {
+    "machine path": 1
+   }
+  },
+  "studies/1-feasibility-classification/06-Study-History/ASSET-REFERENCES.json": {
+   "kind": "redacted",
+   "original_sha256": "6cb2cd66d45b178d6d5212714b6980c99052df078e57e4b0c664b96a73e1304c",
+   "release_sha256": "9c420f2c715d69d73a3fcb21dd15c18e0b2f02f255f3f1892e581aaebced1f27",
+   "redactions": {
+    "sibling project": 2
+   }
+  },
+  "studies/1-feasibility-classification/06-Study-History/IMPLEMENTATION-CHECKS.json": {
+   "kind": "redacted",
+   "original_sha256": "53218c44a7cef5ac615070d30231ced01e6e4615d6a9450492cfb2af2f36ce54",
+   "release_sha256": "fcfc978ffdaffe055aad2d1e278c2f7e5511dc7851d35bb713f19b319313dca2",
+   "redactions": {
+    "project folder": 1,
+    "environment path": 1
+   }
+  },
+  "studies/1-feasibility-classification/06-Study-History/PREPARATION-CHECK.json": {
+   "kind": "redacted",
+   "original_sha256": "47fcc3b2487d8029646c0d78291dd365ef54b973ca05a0b99116e566ccef45ce",
+   "release_sha256": "bef834be278a91e4ecbf46ae2dfa0771258fe2c06237ed128c75bf171dc3d350",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "studies/1-feasibility-classification/06-Study-History/STATUS.json": {
+   "kind": "redacted",
+   "original_sha256": "946f50d403da57d498cca3cd0a66a27e6eae9052f3fbfcccf469bdc87486ea45",
+   "release_sha256": "8c1e15bb1816e9272fcd273d9a9971de77ac43fa699feff9200a4c008525509f",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "studies/1-feasibility-classification/06-Study-History/environment.json": {
+   "kind": "redacted",
+   "original_sha256": "53fb585b479e3e49d7e821f65fe9dfc47a923ff4ba8fddf98ac671c171d1f9cc",
+   "release_sha256": "15491a659797fc42ab8d2e0cefa03283c97a4611c563e892cc360026f533b43e",
+   "redactions": {
+    "absolute path": 1,
+    "environment path": 1
+   }
+  },
+  "studies/1-feasibility-classification/06-Study-History/pre-execution-guides-2026-10-08/05-Notes/RUNBOOK.md": {
+   "kind": "redacted",
+   "original_sha256": "bbf1fe48abfebdf0de16ebeb8abcb484a5316952795a3d90c0d470692433cc48",
+   "release_sha256": "1fa54df89cf6e1d554234c5bc20e99f3466a839a4f40a546ae67e1d8fccf1b68",
+   "redactions": {
+    "machine path": 1
+   }
+  },
+  "studies/1-feasibility-classification/06-Study-History/pre-execution-guides-2026-10-08/06-Study-History/STATUS.json": {
+   "kind": "redacted",
+   "original_sha256": "75f79aa6ec935163b8003deff4d249871f254bd830c1db9ca8575f07b9eb3f6b",
+   "release_sha256": "10d23f7ca4858a30623cfefab7258bbdf6f1aa97cf968226741af6c5470c5e48",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "studies/1-feasibility-classification/06-Study-History/pre-execution-guides-2026-10-08/README.md": {
+   "kind": "redacted",
+   "original_sha256": "477e5217e3a3273a6a3dae13f3d3b6e82bd9b8604621b9ac6be504a2f3ceefa1",
+   "release_sha256": "5d413f7a397eac042c662584275bc44adc292533fbba96e5c7ac7be67b188a3b",
+   "redactions": {
+    "sibling project": 1
+   }
+  },
+  "studies/1-feasibility-classification/AMENDMENTS.md": {
+   "kind": "redacted",
+   "original_sha256": "ba0d77e95fd1af04ebd53b5771d40cd63f975540934e6ccd2fda11b7eeca903a",
+   "release_sha256": "4efd0112d7495959464262493251cf2a292c0fdecfa2e4da6afa0d688865658a",
+   "redactions": {
+    "environment path": 3,
+    "sibling project": 2
+   }
+  },
+  "studies/1-feasibility-classification/Makefile": {
+   "kind": "redacted",
+   "original_sha256": "145f5ac3ee694332d866c46a85eaabc03762cf4ec0bf18e7271f1fe4f59cfaca",
+   "release_sha256": "b6c06ec591843131ceaf002893ab1faff8c5a08e346f3b13633ee9844c50d488",
+   "redactions": {
+    "environment path": 1
+   }
+  },
+  "studies/1-feasibility-classification/README.md": {
+   "kind": "redacted",
+   "original_sha256": "6e967adf212e22c52c37e6f01b3ed678b81389481f2a615952329f5f5b89a497",
+   "release_sha256": "55de388f6895a4eedef8fdf8e5f0e3920e981b3afafd758a8f5687301bb722f6",
+   "redactions": {
+    "sibling project": 1
+   }
+  },
+  "studies/1-feasibility-classification/REPRODUCIBILITY.md": {
+   "kind": "redacted",
+   "original_sha256": "6858e1bdfa8d4c706d2b663e0aab76cf572a4c0ed0dd3f9e4a5ee042ec20f81a",
+   "release_sha256": "7b2ac370cef1122c27411eecb6f5ae09245c6b812ecc863437c5523befed67d6",
+   "redactions": {
+    "environment path": 8
+   }
+  },
+  "studies/2-controlled-histories/AMENDMENTS.md": {
+   "kind": "redacted",
+   "original_sha256": "097d9d38c19584cc5d8b6c3bc8d5b66f6a2aeac143098b0d4071bbe3afca3771",
+   "release_sha256": "18cea1c171788b5dfa90dbb409fab13d73a0122d82bba19e8e79f3a11625b3bd",
+   "redactions": {
+    "home-relative path": 1
+   }
+  },
+  "studies/2-controlled-histories/REPRODUCIBILITY-2026-10-09.md": {
+   "kind": "redacted",
+   "original_sha256": "3a09bde81f8bf9080a42419a205c683fca6974a5c701bc9a28a06be262150c20",
+   "release_sha256": "4de16779bbd48cda20c5415e65ec6720bb6ce5939da83366556bcf1d76a583f4",
+   "redactions": {
+    "environment path": 1
+   }
+  },
+  "studies/2-controlled-histories/analysis/amendment/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "62d104b16ee0d82f53158b7fcb34bdb6e02e2f6507e771adeaeb4d6861b38355",
+   "release_sha256": "a1d74d9c98ba1f07db21f20b1a4b78128fdc388919f23a268a31178a608790fa",
+   "redactions": {
+    "absolute path": 1
+   },
+   "archive": "data/saved-outputs/phase2-controlled-histories.tar.xz",
+   "frozen_in": [
+    "studies/2-controlled-histories/protocol/CONFIRMATION-FREEZE.json"
+   ]
+  },
+  "studies/2-controlled-histories/analysis/confirmation/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "7b4255cbe532727e166c5f7a40e1906d1b42325fb237e703e25bccd888e7fdd2",
+   "release_sha256": "da7fad87bd417759bca82b8996352bc798eb9e59e3caa9e7a7347bc01504349d",
+   "redactions": {
+    "absolute path": 1
+   },
+   "archive": "data/saved-outputs/phase2-controlled-histories.tar.xz",
+   "frozen_in": [
+    "studies/2-controlled-histories/protocol/DURATION-FREEZE.json"
+   ]
+  },
+  "studies/2-controlled-histories/analysis/development/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "f324bc9c50e833f7487b770bddf5bdb2eb83036806e86c395ac4bcff0928a907",
+   "release_sha256": "bdb7d3b3e201f80242216242b976d0dc7d528fcc741cfaac5f98e219282fd2c9",
+   "redactions": {
+    "absolute path": 1
+   },
+   "archive": "data/saved-outputs/phase2-controlled-histories.tar.xz",
+   "frozen_in": [
+    "studies/2-controlled-histories/protocol/CONFIRMATION-FREEZE.json"
+   ]
+  },
+  "studies/2-controlled-histories/runs/amendment/manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "ff223d94d8f00c5e308a62889fa7fbba784450a0a5d9c59bde6eb589b221ed50",
+   "release_sha256": "8911173761e9e16ee675bb775914402719df9b660aa326105f3a6306b55be593",
+   "redactions": {
+    "absolute path": 1,
+    "environment path": 1
+   },
+   "archive": "data/saved-outputs/phase2-controlled-histories.tar.xz"
+  },
+  "studies/2-controlled-histories/runs/confirmation/manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "6c752c2daf02a173b1a053c33dcaad8be1408d692fdf38b3131f0d48caf81ee5",
+   "release_sha256": "a23181ff4861c23a79628bc710925a0456e2c5cbb1719469e232b6bb795916b9",
+   "redactions": {
+    "absolute path": 1,
+    "environment path": 1
+   },
+   "archive": "data/saved-outputs/phase2-controlled-histories.tar.xz"
+  },
+  "studies/2-controlled-histories/runs/development/manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "fbe1700169c6d7e9ad7379645ad09f8d37132c53b86abec2659ffe6dc85dff8e",
+   "release_sha256": "d8b4aacf106f87d929bc6f193926b86fb1943c6e6de537ee2b15bed05cd8cd8f",
+   "redactions": {
+    "absolute path": 1,
+    "environment path": 1
+   },
+   "archive": "data/saved-outputs/phase2-controlled-histories.tar.xz"
+  },
+  "studies/3-larger-confirmation/FREEZE.json": {
+   "kind": "redacted",
+   "original_sha256": "45b029219b3510f527396a79048442f747473c08a726440012c5a1e8a4dce79f",
+   "release_sha256": "8e5ca27c6c1ec309ac9272f47d2340aba09b38cd7c667b65580266a1bb22d5ce",
+   "redactions": {
+    "platform string": 1
+   }
+  },
+  "studies/3-larger-confirmation/code/pipeline.sh": {
+   "kind": "adapted",
+   "original_sha256": "4fd1fa1cfa44a69e1a8eb36c5dca267404bdcb592c2b740a32674597658a5199",
+   "release_sha256": "dea2429956ea98bdf455b2ca91e1794d438ba31d01bf182af0c25785f48e674c",
+   "frozen_in": [
+    "studies/3-larger-confirmation/FREEZE.json"
+   ],
+   "reasons": [
+    "the default interpreter is the release's environment (.venv at the release root)"
+   ]
+  },
+  "studies/3-larger-confirmation/results/records/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "06b573c54639f4532f097c0066258eb97999f19a43a7970da31d0c957b881d69",
+   "release_sha256": "3f2e080a691ecd6ac940426fda67b0378e61239447fd63f203115419073c9a96",
+   "redactions": {
+    "absolute path": 1
+   },
+   "archive": "data/saved-outputs/study3-larger-confirmation.tar.xz"
+  },
+  "studies/3-larger-confirmation/runs/confirmation/manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "b162554cb26bc05c9e463b1e79c0c008ce2722234d50e489651176c5cd916c97",
+   "release_sha256": "bbc592d469063052533ee851fdc301881a96da9430bb16c43c14a9a349ab0bed",
+   "redactions": {
+    "absolute path": 1,
+    "environment path": 1
+   },
+   "archive": "data/saved-outputs/study3-larger-confirmation.tar.xz"
+  },
+  "studies/3-larger-confirmation/runs/confirmation/snapshot/FREEZE.json": {
+   "kind": "redacted",
+   "original_sha256": "45b029219b3510f527396a79048442f747473c08a726440012c5a1e8a4dce79f",
+   "release_sha256": "8e5ca27c6c1ec309ac9272f47d2340aba09b38cd7c667b65580266a1bb22d5ce",
+   "redactions": {
+    "platform string": 1
+   },
+   "archive": "data/saved-outputs/study3-larger-confirmation.tar.xz"
+  }
+ },
+ "frozen_files_not_shipped": {},
+ "freeze_records": [
+  {
+   "path": "studies/1-feasibility-classification/06-Study-History/ANALYSIS-FREEZE-v1.json",
+   "base": "studies/1-feasibility-classification"
+  },
+  {
+   "path": "studies/1-feasibility-classification/06-Study-History/DIAGNOSTIC-FREEZE-v1.json",
+   "base": "studies/1-feasibility-classification"
+  },
+  {
+   "path": "studies/1-feasibility-classification/06-Study-History/EXECUTION-FREEZE-v1.json",
+   "base": "studies/1-feasibility-classification"
+  },
+  {
+   "path": "studies/2-controlled-histories/protocol/AMENDMENT-FREEZE.json",
+   "base": "studies/2-controlled-histories",
+   "field": "source_files"
+  },
+  {
+   "path": "studies/2-controlled-histories/protocol/CONFIRMATION-FREEZE.json",
+   "base": "studies/2-controlled-histories"
+  },
+  {
+   "path": "studies/2-controlled-histories/protocol/DEVELOPMENT-FREEZE.json",
+   "base": "studies/2-controlled-histories"
+  },
+  {
+   "path": "studies/2-controlled-histories/protocol/DISPLAY-FREEZE.json",
+   "base": "studies/2-controlled-histories"
+  },
+  {
+   "path": "studies/2-controlled-histories/protocol/DURATION-FREEZE.json",
+   "base": "studies/2-controlled-histories"
+  },
+  {
+   "path": "studies/2-controlled-histories/protocol/VERIFICATION-FREEZE.json",
+   "base": "studies/2-controlled-histories"
+  },
+  {
+   "path": "studies/3-larger-confirmation/FREEZE.json",
+   "base": "studies/3-larger-confirmation"
+  }
+ ]
+}

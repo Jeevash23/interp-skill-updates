@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-10-08T03:01:21.666139+00:00",
+  "observed_before_qualification": true,
+  "command": "<environment>/bin/python -B <project>/02-Code/test_experiment.py",
+  "tests_passed": 8,
+  "failures": 0,
+  "elapsed_seconds": 0.818,
+  "checks": [
+    "independent labels and encoding",
+    "NumPy forward agreement",
+    "input excludes targets and environment identity",
+    "changed-primitive training excludes evaluation labels",
+    "branch and optimizer isolation",
+    "no-update exact identity",
+    "deterministic updates and paired initialization",
+    "resource guard refuses insufficient memory"
+  ],
+  "source_sha256": "c38d184f0ca8219e56bc8585326affdcf7d193910b229bbef0f0687a59b54a0a"
+}

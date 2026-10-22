@@ -1,0 +1,785 @@
+[
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00"
+    ],
+    "history": "factorwise",
+    "id": "task71001-init1701-factorwise",
+    "model_seed": 1701,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71001
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00"
+    ],
+    "history": "factorwise",
+    "id": "task71001-init1702-factorwise",
+    "model_seed": 1702,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71001
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00"
+    ],
+    "history": "factorwise",
+    "id": "task71001-init1703-factorwise",
+    "model_seed": 1703,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71001
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "mixed_change",
+    "id": "task71001-init1701-mixed_change",
+    "model_seed": 1701,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71001
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "mixed_change",
+    "id": "task71001-init1702-mixed_change",
+    "model_seed": 1702,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71001
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "mixed_change",
+    "id": "task71001-init1703-mixed_change",
+    "model_seed": 1703,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71001
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E00",
+      "E11",
+      "E01",
+      "E10",
+      "E10",
+      "E01",
+      "E11",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "shuffled",
+    "id": "task71001-init1701-shuffled",
+    "model_seed": 1701,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71001
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E00",
+      "E11",
+      "E01",
+      "E10",
+      "E10",
+      "E01",
+      "E11",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "shuffled",
+    "id": "task71001-init1702-shuffled",
+    "model_seed": 1702,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71001
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E00",
+      "E11",
+      "E01",
+      "E10",
+      "E10",
+      "E01",
+      "E11",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "shuffled",
+    "id": "task71001-init1703-shuffled",
+    "model_seed": 1703,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71001
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00"
+    ],
+    "history": "factorwise",
+    "id": "task71002-init1701-factorwise",
+    "model_seed": 1701,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71002
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00"
+    ],
+    "history": "factorwise",
+    "id": "task71002-init1702-factorwise",
+    "model_seed": 1702,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71002
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00"
+    ],
+    "history": "factorwise",
+    "id": "task71002-init1703-factorwise",
+    "model_seed": 1703,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71002
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "mixed_change",
+    "id": "task71002-init1701-mixed_change",
+    "model_seed": 1701,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71002
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "mixed_change",
+    "id": "task71002-init1702-mixed_change",
+    "model_seed": 1702,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71002
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "mixed_change",
+    "id": "task71002-init1703-mixed_change",
+    "model_seed": 1703,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71002
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E01",
+      "E11",
+      "E11",
+      "E10",
+      "E00",
+      "E00",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "shuffled",
+    "id": "task71002-init1701-shuffled",
+    "model_seed": 1701,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71002
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E01",
+      "E11",
+      "E11",
+      "E10",
+      "E00",
+      "E00",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "shuffled",
+    "id": "task71002-init1702-shuffled",
+    "model_seed": 1702,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71002
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E01",
+      "E11",
+      "E11",
+      "E10",
+      "E00",
+      "E00",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "shuffled",
+    "id": "task71002-init1703-shuffled",
+    "model_seed": 1703,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71002
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00"
+    ],
+    "history": "factorwise",
+    "id": "task71003-init1701-factorwise",
+    "model_seed": 1701,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71003
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00"
+    ],
+    "history": "factorwise",
+    "id": "task71003-init1702-factorwise",
+    "model_seed": 1702,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71003
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E11",
+      "E01",
+      "E00"
+    ],
+    "history": "factorwise",
+    "id": "task71003-init1703-factorwise",
+    "model_seed": 1703,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71003
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "mixed_change",
+    "id": "task71003-init1701-mixed_change",
+    "model_seed": 1701,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71003
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "mixed_change",
+    "id": "task71003-init1702-mixed_change",
+    "model_seed": 1702,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71003
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00",
+      "E11",
+      "E10",
+      "E01",
+      "E00"
+    ],
+    "history": "mixed_change",
+    "id": "task71003-init1703-mixed_change",
+    "model_seed": 1703,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71003
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E01",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E01",
+      "E10",
+      "E10",
+      "E11",
+      "E00",
+      "E11",
+      "E00"
+    ],
+    "history": "shuffled",
+    "id": "task71003-init1701-shuffled",
+    "model_seed": 1701,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71003
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E01",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E01",
+      "E10",
+      "E10",
+      "E11",
+      "E00",
+      "E11",
+      "E00"
+    ],
+    "history": "shuffled",
+    "id": "task71003-init1702-shuffled",
+    "model_seed": 1702,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71003
+  },
+  {
+    "adaptation_branches": [
+      "update_f",
+      "update_g"
+    ],
+    "base_optimizer_steps": 2600,
+    "controls": "no_update_and_continued_old_environment_to_be_implemented",
+    "environment_order": [
+      "E00",
+      "E01",
+      "E11",
+      "E01",
+      "E00",
+      "E10",
+      "E01",
+      "E10",
+      "E10",
+      "E11",
+      "E00",
+      "E11",
+      "E00"
+    ],
+    "history": "shuffled",
+    "id": "task71003-init1703-shuffled",
+    "model_seed": 1703,
+    "runner_implemented": false,
+    "status": "planned_not_started",
+    "task_seed": 71003
+  }
+]

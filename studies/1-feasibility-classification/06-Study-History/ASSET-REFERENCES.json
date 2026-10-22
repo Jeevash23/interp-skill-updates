@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path_from_field_root": "<environment-project>/studies/2-trained-networks/PROTOCOL.md",
+      "bytes": 9219,
+      "sha256": "6db272e5cc592c6e513eed6f8383ec1bb8a95d5eb9b0f55c28e0908c48a784bd",
+      "use": "read_only_reference"
+    },
+    {
+      "path_from_field_root": "<environment-project>/studies/2-trained-networks/code/run.py",
+      "bytes": 3933,
+      "sha256": "d42166f99d102a5946bb46f72cf97357d7d35f3934074311bb0ca9c8cd0fab85",
+      "use": "read_only_reference"
+    }
+  ],
+  "weights_read_or_hashed": false,
+  "environments_modified": false,
+  "qualification": "reference_only_no_runtime_validation"
+}

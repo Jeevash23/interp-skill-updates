@@ -1,0 +1,69 @@
+{
+  "architectures": {
+    "leaky": {
+      "correlation_with_damage": {
+        "code_overlap": 0.14217635588991423,
+        "readout_norm": -0.030410370491424473,
+        "readout_share": -0.025202533867718317
+      },
+      "distance_over_norm": {
+        "max": 1.4787230246310679,
+        "median": 1.3245361240080054,
+        "min": 1.123029230960508
+      },
+      "distance_over_travel": {
+        "max": 1.4865877743585978,
+        "median": 1.3404127661574243,
+        "min": 1.1568472340233544
+      },
+      "families": 64,
+      "max_abs_correlation": 0.2226991184669883,
+      "observations": 512,
+      "paired_difference_correlation": {
+        "code_overlap": 0.2226991184669883,
+        "readout_norm": -0.08227331649696151,
+        "readout_share": -0.08774475671466948
+      },
+      "paired_difference_p": {
+        "code_overlap": 0.07693311556747401,
+        "readout_norm": 0.518077778346885,
+        "readout_share": 0.4905372453280684
+      },
+      "pairs": 128
+    },
+    "linear": {
+      "correlation_with_damage": {
+        "code_overlap": 0.18156424263598173,
+        "readout_norm": 0.005938602756973838,
+        "readout_share": -0.07329143306094732
+      },
+      "distance_over_norm": {
+        "max": 1.5664714791761296,
+        "median": 1.3667838328024704,
+        "min": 1.1199292891217523
+      },
+      "distance_over_travel": {
+        "max": 1.5536919016182138,
+        "median": 1.3898714797832747,
+        "min": 1.1858206042557893
+      },
+      "families": 64,
+      "max_abs_correlation": 0.2615083063250633,
+      "observations": 512,
+      "paired_difference_correlation": {
+        "code_overlap": 0.2615083063250633,
+        "readout_norm": -0.1292272305097732,
+        "readout_share": -0.13463783406068838
+      },
+      "paired_difference_p": {
+        "code_overlap": 0.036860401752575954,
+        "readout_norm": 0.30881234693539455,
+        "readout_share": 0.2888205390118052
+      },
+      "pairs": 128
+    }
+  },
+  "created": "2026-10-09",
+  "networks": 512,
+  "post_hoc": true
+}

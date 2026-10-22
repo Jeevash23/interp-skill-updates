@@ -1,0 +1,120 @@
+{
+  "created_utc": "2026-10-09T14:47:48.367353+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.2.0",
+    "scipy": "1.16.0",
+    "torch": "2.7.1+cpu",
+    "executable": "<project>/python",
+    "machine": "x86_64",
+    "processor": ""
+  },
+  "phase1_analysis": {
+    "pilot": {
+      "files": 7,
+      "byte_identical": 7,
+      "seconds": 0.14
+    },
+    "long-final": {
+      "files": 7,
+      "byte_identical": 7,
+      "seconds": 0.15
+    }
+  },
+  "phase2_analysis": {
+    "development": {
+      "files": {
+        "summary.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        },
+        "records.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        },
+        "base-records.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        },
+        "curves.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        }
+      },
+      "seconds": 3.31
+    },
+    "amendment": {
+      "files": {
+        "summary.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        },
+        "records.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        },
+        "base-records.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        },
+        "curves.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        }
+      },
+      "seconds": 2.49
+    },
+    "confirmation": {
+      "files": {
+        "summary.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        },
+        "records.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        },
+        "base-records.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        },
+        "curves.json": {
+          "differing_values": 0,
+          "largest_difference": 0.0
+        }
+      },
+      "seconds": 18.17
+    }
+  },
+  "phase2_models": {
+    "status": "passed",
+    "models": 8,
+    "selected": [
+      "t91001-s2701-linear-independent",
+      "t91001-s2701-linear-joint",
+      "t91001-s2701-leaky-independent",
+      "t91001-s2701-leaky-joint",
+      "t91064-s2701-linear-independent",
+      "t91064-s2701-linear-joint",
+      "t91064-s2701-leaky-independent",
+      "t91064-s2701-leaky-joint"
+    ],
+    "trajectories": 144,
+    "array_comparisons": 1312,
+    "bitwise_identical": true,
+    "seconds": 32.01
+  },
+  "phase2_audits": {
+    "confirmation": {
+      "status": "passed",
+      "differing_fields": [],
+      "seconds": 154.24
+    },
+    "duration": {
+      "status": "passed",
+      "differing_fields": [],
+      "seconds": 6.65
+    }
+  },
+  "status": "passed"
+}

@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "failures": [],
+  "earlier_seed_count": 100,
+  "earlier_seed_range": [
+    1,
+    91064
+  ],
+  "earlier_configurations": [
+    "1-feasibility-classification/03-Data/config/execution-v1.json",
+    "1-feasibility-classification/03-Data/config/long-final-v1.json",
+    "1-feasibility-classification/03-Data/config/pilot.json",
+    "2-controlled-histories/protocol/AMENDMENT-FREEZE.json",
+    "2-controlled-histories/protocol/CONFIRMATION-FREEZE.json",
+    "2-controlled-histories/protocol/DEVELOPMENT-FREEZE.json",
+    "2-controlled-histories/protocol/DISPLAY-FREEZE.json",
+    "2-controlled-histories/protocol/DURATION-FREEZE.json",
+    "2-controlled-histories/protocol/VERIFICATION-FREEZE.json",
+    "2-controlled-histories/protocol/amendment.json",
+    "2-controlled-histories/protocol/confirmation.json",
+    "2-controlled-histories/protocol/development.json"
+  ],
+  "earlier_test_files": [
+    "1-feasibility-classification/02-Code/test_experiment.py",
+    "2-controlled-histories/code/test_study.py",
+    "2-controlled-histories/code/test_analysis.py"
+  ],
+  "study3": {
+    "task_seeds": [
+      95001,
+      95153,
+      153
+    ],
+    "initialization_seeds": [
+      3701,
+      3702
+    ]
+  },
+  "pilot": {
+    "task_seeds": [
+      84001,
+      84002
+    ],
+    "initialization_seeds": [
+      3901
+    ]
+  },
+  "closest_task_function_distance_to_phase2": 0.15397782743204125,
+  "configuration_keys_differing_from_phase2": [
+    "stage",
+    "task_seeds",
+    "initialization_seeds"
+  ],
+  "transition_counts": {
+    "independent": {
+      "f_only": 14,
+      "g_only": 8,
+      "both": 6
+    },
+    "joint": {
+      "both": 24,
+      "f_only": 2,
+      "g_only": 2
+    }
+  }
+}
